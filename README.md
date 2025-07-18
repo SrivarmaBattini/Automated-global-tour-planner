@@ -45,7 +45,7 @@ The **Automated Global Tour Planner** simplifies this process by using smart heu
 
 ## **🌍 Countries Supported**
 
-The app supports **25 countries** across multiple continents, each with:
+The project supports **25 countries** across multiple continents, each with:
 - Coordinates (for mapping and distance calculation)
 - List of travel interests (e.g., culture, wildlife, adventure)
 - Average travel and accommodation costs
