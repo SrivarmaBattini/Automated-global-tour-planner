@@ -1,0 +1,158 @@
+{
+    "Thailand": {
+        "interests": ["culture", "beaches", "food", "nature", "adventure", "temples", "islands", "nightlife"],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 100,
+        "coordinates": [13.7563, 100.5018]
+    },
+    "Indonesia": {
+        "interests": ["beaches", "culture", "nature", "adventure", "islands", "temples", "diving", "food"],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 100,
+        "coordinates": [-6.2088, 106.8456]
+    },
+    "Maldives": {
+        "interests": ["beaches", "luxury", "diving", "nature", "islands", "adventure"],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 200,
+        "coordinates": [3.2028, 73.2207]
+    },
+    "Sri Lanka": {
+        "interests": ["beaches", "culture", "nature", "temples", "wildlife", "food", "adventure", "historical"],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 80,
+        "coordinates": [6.9271, 79.8612]
+    },
+    "India": {
+        "interests": ["culture", "historical", "temples", "food", "architecture", "nature", "adventure", "wildlife"],
+        "avg_travel_cost": 500,
+        "avg_accommodation_cost": 80,
+        "coordinates": [28.6139, 77.2090]
+    },
+    "Japan": {
+        "interests": ["culture", "food", "historical", "technology", "temples", "shopping", "nature", "architecture"],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 150,
+        "coordinates": [35.6762, 139.6503]
+    },
+    "Vietnam": {
+        "interests": ["culture", "food", "historical", "nature", "beaches", "adventure", "temples", "islands"],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 70,
+        "coordinates": [21.0285, 105.8542]
+    },
+    "Singapore": {
+        "interests": ["food", "shopping", "technology", "culture", "luxury", "architecture", "nature", "nightlife"],
+        "avg_travel_cost": 650,
+        "avg_accommodation_cost": 180,
+        "coordinates": [1.3521, 103.8198]
+    },
+    "South Korea": {
+        "interests": ["culture", "technology", "food", "shopping", "historical", "architecture", "temples", "nature"],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 130,
+        "coordinates": [37.5665, 126.9780]
+    },
+    "Australia": {
+        "interests": ["nature", "beaches", "wildlife", "adventure", "luxury", "islands", "diving", "food"],
+        "avg_travel_cost": 1000,
+        "avg_accommodation_cost": 150,
+        "coordinates": [-33.8688, 151.2093]
+    },
+    "New Zealand": {
+        "interests": ["nature", "adventure", "wildlife", "luxury", "islands", "beaches", "food"],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 130,
+        "coordinates": [-41.2865, 174.7762]
+    },
+    "Egypt": {
+        "interests": ["historical", "culture", "architecture", "adventure", "nature", "temples", "beaches", "wildlife"],
+        "avg_travel_cost": 550,
+        "avg_accommodation_cost": 90,
+        "coordinates": [30.0444, 31.2357]
+    },
+    "Morocco": {
+        "interests": ["culture", "history", "architecture", "food", "adventure", "nature", "shopping", "beaches"],
+        "avg_travel_cost": 600,
+        "avg_accommodation_cost": 85,
+        "coordinates": [31.6295, -7.9811]
+    },
+    "Italy": {
+        "interests": ["historical", "culture", "food", "architecture", "art", "shopping", "beaches"],
+        "avg_travel_cost": 850,
+        "avg_accommodation_cost": 140,
+        "coordinates": [41.9028, 12.4964]
+    },
+    "Spain": {
+        "interests": ["beaches", "culture", "food", "architecture", "nightlife", "historical", "art"],
+        "avg_travel_cost": 800,
+        "avg_accommodation_cost": 120,
+        "coordinates": [40.4168, -3.7038]
+    },
+    "France": {
+        "interests": ["culture", "art", "food", "historical", "architecture", "luxury", "shopping"],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 160,
+        "coordinates": [48.8566, 2.3522]
+    },
+    "Greece": {
+        "interests": ["historical", "islands", "beaches", "culture", "food", "architecture", "mythology"],
+        "avg_travel_cost": 750,
+        "avg_accommodation_cost": 110,
+        "coordinates": [37.9838, 23.7275]
+    },
+    "United Kingdom": {
+        "interests": ["historical", "culture", "shopping", "architecture", "museums", "countryside", "theatre"],
+        "avg_travel_cost": 950,
+        "avg_accommodation_cost": 170,
+        "coordinates": [51.5074, -0.1278]
+    },
+    "USA": {
+        "interests": ["nature", "national parks", "cities", "culture", "road trips", "adventure", "shopping"],
+        "avg_travel_cost": 1100,
+        "avg_accommodation_cost": 180,
+        "coordinates": [38.9072, -77.0369]
+    },
+    "Canada": {
+        "interests": ["nature", "wildlife", "adventure", "mountains", "cities", "national parks", "lakes"],
+        "avg_travel_cost": 1000,
+        "avg_accommodation_cost": 160,
+        "coordinates": [45.4215, -75.6972]
+    },
+    "Mexico": {
+        "interests": ["beaches", "culture", "historical", "food", "adventure", "ruins", "nightlife"],
+        "avg_travel_cost": 700,
+        "avg_accommodation_cost": 100,
+        "coordinates": [19.4326, -99.1332]
+    },
+    "Brazil": {
+        "interests": ["beaches", "carnival", "nature", "rainforest", "cities", "adventure", "wildlife"],
+        "avg_travel_cost": 900,
+        "avg_accommodation_cost": 90,
+        "coordinates": [-15.8267, -47.9218]
+    },
+    "Peru": {
+        "interests": ["historical", "ruins", "nature", "adventure", "mountains", "culture", "food"],
+        "avg_travel_cost": 850,
+        "avg_accommodation_cost": 80,
+        "coordinates": [-12.0464, -77.0428]
+    },
+    "Argentina": {
+        "interests": ["nature", "mountains", "tango", "food", "cities", "adventure", "glaciers"],
+        "avg_travel_cost": 950,
+        "avg_accommodation_cost": 85,
+        "coordinates": [-34.6037, -58.3816]
+    },
+    "South Africa": {
+        "interests": ["wildlife", "safari", "nature", "adventure", "beaches", "culture", "wine"],
+        "avg_travel_cost": 1200,
+        "avg_accommodation_cost": 130,
+        "coordinates": [-25.7461, 28.1881]
+    },
+    "Kenya": {
+        "interests": ["wildlife", "safari", "nature", "culture", "beaches", "adventure", "great rift valley"],
+        "avg_travel_cost": 1100,
+        "avg_accommodation_cost": 110,
+        "coordinates": [-1.2921, 36.8219]
+    }
+}
