@@ -1,55 +1,64 @@
-# **Automated Global Tour Planner ✈️🌍**
+# ✈️🌍 Automated Global Tour Planner
 
-An intelligent desktop application that automatically generates personalized global tour itineraries based on user preferences, travel budget, and interests — complete with an optimized multi-country route and an interactive map.
-
-## **📌 About The Project**
-
-Planning a multi-country international trip can be time-consuming and overwhelming. With so many options, constraints, and preferences, it's difficult to find the perfect itinerary.
-
-The **Automated Global Tour Planner** simplifies this process by using smart heuristics (Nearest Neighbor for TSP), interest-based country selection, and budget-aware logic to generate a complete travel plan in seconds. All routes are visualized using an interactive Folium map.
+A smart Python-based desktop application that generates optimized multi-country travel itineraries based on user preferences such as interests, duration, budget, and starting location. The system uses heuristic search (TSP via Nearest Neighbor) and interest-matching logic to deliver a personalized travel plan and an interactive route map.
 
 ---
 
-## **✨ Key Features**
+## 📌 About The Project
 
-- **🔍 Personalized Itinerary Generation**  
-  Tailors travel plans based on interests, number of countries, and travel dates.
+Planning a multi-country international trip is complex due to constraints like budget, time, and personal preferences. Manually optimizing the itinerary is time-consuming and often inefficient.
 
-- **🧠 Interest-Based Country Selection**  
-  Dynamically picks countries matching selected interests from a diverse dataset.
+The **Automated Global Tour Planner** applies core AI techniques to solve this problem:
+- Heuristic routing (Nearest Neighbor TSP)
+- Constraint satisfaction (budget, time, preferences)
+- Interest-based filtering
+- Personalized planning logic
 
-- **💰 Budget-Conscious Travel**  
-  Estimates accommodation and travel costs per country and alerts if the trip exceeds the budget.
-
-- **📍 TSP Route Optimization**  
-  Solves a simplified Traveling Salesperson Problem using the **Nearest Neighbor algorithm** to find the shortest route visiting all selected countries.
-
-- **📅 Smart Day Distribution**  
-  Distributes days across countries proportionally based on interest match scores.
-
-- **🗺️ Interactive Map Visualization**  
-  Creates an HTML map showing the travel route using **Folium**, auto-opens in browser.
+This tool provides an intuitive GUI to collect inputs and outputs a complete travel plan with dates, costs, and routes — all visualized on an interactive map.
 
 ---
 
-## **🛠️ Tech Stack**
 
-- **Python** — Core language
-- **Tkinter** — GUI for travel inputs and itinerary output
-- **Folium** — Map generation
-- **NumPy** — Distance computation
-- **tkcalendar** — Start/End date entry widgets
-- **JSON** — Used to store travel data (`data.json`)
+## 🚀 Key Features
+
+- **🧠 Intelligent Country Selection**  
+  Picks countries that align best with the user's travel interests.
+
+- **📍 Optimized Route Planning**  
+  Solves TSP using Nearest Neighbor to minimize travel distances between countries.
+
+- **📅 Smart Day Allocation**  
+  Distributes total trip days proportionally based on interest overlap.
+
+- **💰 Budget-Conscious Itinerary**  
+  Estimates total cost and warns if the trip exceeds the user's budget.
+
+- **🗺️ Map Visualization**  
+  Interactive HTML map with markers for each destination and red polyline for the route.
+
+- **🖥️ User-Friendly Interface**  
+  Clean Tkinter GUI with date pickers, combo boxes, and scrollable interest selection.
 
 ---
 
-## **🌍 Countries Supported**
+## 🛠️ Tech Stack
 
-The project supports **25 countries** across multiple continents, each with:
-- Coordinates (for mapping and distance calculation)
-- List of travel interests (e.g., culture, wildlife, adventure)
+- **Python 3.8+**
+- **Tkinter** – GUI
+- **NumPy** – Distance calculations
+- **Folium** – Interactive route maps
+- **tkcalendar** – Date inputs
+- **JSON** – Country data (`data.json`)
+
+---
+
+## 🌍 Countries Supported
+
+25 predefined countries across multiple continents, each with:
+- Travel interests (e.g., adventure, culture, beaches, wildlife)
 - Average travel and accommodation costs
+- Latitude/longitude coordinates
 
-See `data.json` for the complete list.
+See [`data.json`](data.json) for details.
 
 ---
