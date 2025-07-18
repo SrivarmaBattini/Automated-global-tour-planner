@@ -27,41 +27,6 @@ The **Automated Global Tour Planner** solves this by providing a smart, user-fri
 * **Numpy**: For numerical operations and distance calculations.  
 * **tkcalendar**: For a user-friendly date entry widget.
 
-## **🚀 Getting Started**
-
-To get a local copy up and running, follow these simple steps.
-
-### **Prerequisites**
-
-Make sure you have Python 3 installed on your system.
-
-### **Installation**
-
-1. **Clone the repository:**  
-   git clone \[https://github.com/kbruhadesh/Automated-Global-Tour-Planner-.git\](https://github.com/kbruhadesh/Automated-Global-Tour-Planner-.git)  
-   cd Automated-Global-Tour-Planner-
-
-2. **Create and activate a virtual environment (recommended):**  
-   \# For macOS/Linux  
-   python3 \-m venv venv  
-   source venv/bin/activate
-
-   \# For Windows  
-   python \-m venv venv  
-   venv\\Scripts\\activate
-
-3. **Install the required libraries:**  
-   pip install \-r requirements.txt
-
-   *(If a requirements.txt file is not available, install packages manually):*  
-   pip install numpy tkcalendar folium
-
-### **Running the Application**
-
-Once the setup is complete, run the main script from your terminal:
-
-python TourPlanner.py
-
 ## **📖 Usage**
 
 1. Launch the application.  
