@@ -1,44 +1,55 @@
 # **Automated Global Tour Planner ✈️🌍**
 
-An interactive desktop application that automatically generates personalized global tour itineraries based on user preferences, budget, and interests, complete with an optimized travel route visualized on an interactive map.
-
-A preview of the Tour Planner interface.
+An intelligent desktop application that automatically generates personalized global tour itineraries based on user preferences, travel budget, and interests — complete with an optimized multi-country route and an interactive map.
 
 ## **📌 About The Project**
 
-Planning an international trip is a complex task with multiple constraints like budget, time, and personal interests. Manually optimizing routes and schedules is often tedious and inefficient.
+Planning a multi-country international trip can be time-consuming and overwhelming. With so many options, constraints, and preferences, it's difficult to find the perfect itinerary.
 
-The **Automated Global Tour Planner** solves this by providing a smart, user-friendly tool that automates the entire process. Users can input their travel preferences, and the application generates a complete, optimized itinerary, saving time and effort while creating the perfect trip.
+The **Automated Global Tour Planner** simplifies this process by using smart heuristics (Nearest Neighbor for TSP), interest-based country selection, and budget-aware logic to generate a complete travel plan in seconds. All routes are visualized using an interactive Folium map.
 
-### **Key Features**
+---
 
-* **✨** Personalized Itinerary **Generation**: Creates custom travel plans based on user-defined criteria.  
-* **🧠 Interest-Based Filtering**: Intelligently selects countries that best match the user's chosen travel interests (e.g., Adventure, Culture, Beaches).  
-* **💰 Budget-Aware Planning**: Ensures the generated itinerary's estimated cost does not exceed the user's specified budget. It provides clear warnings and suggestions if the budget is insufficient.  
-* **🗺️** Optimized Route **Planning**: Implements the **Nearest Neighbor algorithm** to solve the Traveling Salesperson Problem (TSP), ensuring an efficient travel path between the selected countries.  
-* **📅 Dynamic Day Distribution**: Allocates the total trip duration among destinations proportionally, assigning more time to places that align with the user's interests.  
-* **🌐 Interactive Map Visualization**: Generates and automatically opens an interactive HTML map using **Folium** that plots the entire travel route with markers for each destination.
+## **✨ Key Features**
 
-### **🛠️ Built With**
+- **🔍 Personalized Itinerary Generation**  
+  Tailors travel plans based on interests, number of countries, and travel dates.
 
-* **Python**: Core programming language.  
-* **Tkinter**: For the graphical user interface (GUI).  
-* **Folium**: To create interactive Leaflet maps.  
-* **Numpy**: For numerical operations and distance calculations.  
-* **tkcalendar**: For a user-friendly date entry widget.
+- **🧠 Interest-Based Country Selection**  
+  Dynamically picks countries matching selected interests from a diverse dataset.
 
-## **📖 Usage**
+- **💰 Budget-Conscious Travel**  
+  Estimates accommodation and travel costs per country and alerts if the trip exceeds the budget.
 
-1. Launch the application.  
-2. Fill in the **"Travel Parameters"** on the left:  
-   * Enter the **Number of Countries** you wish to visit.  
-   * Select your **Travel Interests** from the checklist.  
-   * Choose your **Start** and **End Dates**.  
-   * Enter your total **Budget (USD)**.  
-   * Select your **Home Country** from the dropdown.  
-3. Click the **"Generate Itinerary & Map 🗺️"** button.  
-4. The application will process your request:  
-   * If the trip is feasible within your budget, a detailed **Travel Itinerary** will appear on the right, and an interactive map (tour\_map.html) will open in your web browser.  
-   * If the trip exceeds your budget, a warning message will appear with helpful suggestions.
+- **📍 TSP Route Optimization**  
+  Solves a simplified Traveling Salesperson Problem using the **Nearest Neighbor algorithm** to find the shortest route visiting all selected countries.
 
-\!\[GIF of Usage\](
+- **📅 Smart Day Distribution**  
+  Distributes days across countries proportionally based on interest match scores.
+
+- **🗺️ Interactive Map Visualization**  
+  Creates an HTML map showing the travel route using **Folium**, auto-opens in browser.
+
+---
+
+## **🛠️ Tech Stack**
+
+- **Python** — Core language
+- **Tkinter** — GUI for travel inputs and itinerary output
+- **Folium** — Map generation
+- **NumPy** — Distance computation
+- **tkcalendar** — Start/End date entry widgets
+- **JSON** — Used to store travel data (`data.json`)
+
+---
+
+## **🌍 Countries Supported**
+
+The app supports **25 countries** across multiple continents, each with:
+- Coordinates (for mapping and distance calculation)
+- List of travel interests (e.g., culture, wildlife, adventure)
+- Average travel and accommodation costs
+
+See `data.json` for the complete list.
+
+---
