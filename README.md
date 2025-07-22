@@ -54,7 +54,7 @@ This tool provides an intuitive GUI to collect inputs and outputs a complete tra
 
 ## 🌍 Countries Supported
 
-25 predefined countries across multiple continents, each with:
+26 predefined countries across multiple continents, each with:
 - Travel interests (e.g., adventure, culture, beaches, wildlife)
 - Average travel and accommodation costs
 - Latitude/longitude coordinates
