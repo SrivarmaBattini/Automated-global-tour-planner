@@ -1,10 +1,10 @@
-# ✈️🌍 Automated Global Tour Planner
+# Automated Global Tour Planner
 
 A smart Python-based desktop application that generates optimized multi-country travel itineraries based on user preferences such as interests, duration, budget, and starting location. The system uses heuristic search (TSP via Nearest Neighbor) and interest-matching logic to deliver a personalized travel plan and an interactive route map.
 
 ---
 
-## 📌 About The Project
+## About The Project
 
 Planning a multi-country international trip is complex due to constraints like budget, time, and personal preferences. Manually optimizing the itinerary is time-consuming and often inefficient.
 
@@ -19,29 +19,29 @@ This tool provides an intuitive GUI to collect inputs and outputs a complete tra
 ---
 
 
-## 🚀 Key Features
+## Key Features
 
-- **🧠 Intelligent Country Selection**  
+- ** Intelligent Country Selection**  
   Picks countries that align best with the user's travel interests.
 
-- **📍 Optimized Route Planning**  
+- ** Optimized Route Planning**  
   Solves TSP using Nearest Neighbor to minimize travel distances between countries.
 
-- **📅 Smart Day Allocation**  
+- ** Smart Day Allocation**  
   Distributes total trip days proportionally based on interest overlap.
 
-- **💰 Budget-Conscious Itinerary**  
+- ** Budget-Conscious Itinerary**  
   Estimates total cost and warns if the trip exceeds the user's budget.
 
-- **🗺️ Map Visualization**  
+- ** Map Visualization**  
   Interactive HTML map with markers for each destination and red polyline for the route.
 
-- **🖥️ User-Friendly Interface**  
+- ** User-Friendly Interface**  
   Clean Tkinter GUI with date pickers, combo boxes, and scrollable interest selection.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.8+**
 - **Tkinter** – GUI
@@ -52,7 +52,7 @@ This tool provides an intuitive GUI to collect inputs and outputs a complete tra
 
 ---
 
-## 🌍 Countries Supported
+## Countries Supported
 
 26 predefined countries across multiple continents, each with:
 - Travel interests (e.g., adventure, culture, beaches, wildlife)
