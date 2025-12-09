@@ -21,22 +21,22 @@ This tool provides an intuitive GUI to collect inputs and outputs a complete tra
 
 ## Key Features
 
-- ** Intelligent Country Selection**  
+- **Intelligent Country Selection**  
   Picks countries that align best with the user's travel interests.
 
-- ** Optimized Route Planning**  
+- **Optimized Route Planning**  
   Solves TSP using Nearest Neighbor to minimize travel distances between countries.
 
-- ** Smart Day Allocation**  
+- **Smart Day Allocation**  
   Distributes total trip days proportionally based on interest overlap.
 
-- ** Budget-Conscious Itinerary**  
+- **Budget-Conscious Itinerary**  
   Estimates total cost and warns if the trip exceeds the user's budget.
 
-- ** Map Visualization**  
+- **Map Visualization**  
   Interactive HTML map with markers for each destination and red polyline for the route.
 
-- ** User-Friendly Interface**  
+- **User-Friendly Interface**  
   Clean Tkinter GUI with date pickers, combo boxes, and scrollable interest selection.
 
 ---
