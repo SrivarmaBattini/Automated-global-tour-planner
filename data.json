@@ -10,7 +10,7 @@
         "avg_travel_cost": 700,
         "avg_accommodation_cost": 100,
         "coordinates": [-6.2088, 106.8456]
-    },
+    }, 
     "Maldives": {
         "interests": ["beaches", "luxury", "diving", "nature", "islands", "adventure"],
         "avg_travel_cost": 900,
