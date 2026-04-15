@@ -6,7 +6,7 @@ from tkcalendar import DateEntry
 from typing import List, Dict, Tuple, Set
 import json
 import folium
-import webbrowser
+import webbrowser 
 import os
 
 # --- Load Data ---
